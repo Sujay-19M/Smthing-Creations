@@ -22,6 +22,8 @@ header {
     display: block;      /* Make logo block level */
     margin: 0 auto;      /* Center the logo */
     padding: 10px 0;     /* Optional padding */
+    position: absolute;  /* Position logo independently */
+    left: 20px;          /* Align logo to the left with some margin */
 }
 
 
