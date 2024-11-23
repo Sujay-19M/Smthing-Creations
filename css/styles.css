@@ -1,28 +1,3 @@
-/* Header Styling */
-header {
-    display: flex;                /* Use flexbox for easy alignment */
-    align-items: center;          /* Vertically center the items */
-    justify-content: center;      /* Center all content horizontally */
-    padding: 10px 20px;           /* Optional padding */
-    background-color: #cc7cf4;    /* Custom background color */
-    position: relative;           /* To position the logo */
-}
-
-/* Logo Styling */
-#site-logo {
-    position: absolute;           /* Position logo independently */
-    left: 20px;                   /* Align logo to the left with some margin */
-    width: 100px;                 /* Adjust width of the logo */
-    height: auto;                 /* Maintain aspect ratio */
-}
-
-/* Centered Heading Styling */
-h1 {
-    margin: 0;                    /* Remove default margin */
-    font-size: 24px;              /* Set font size for the heading */
-    color: white;                 /* Set text color for contrast */
-}
-
 /* General Reset */
 body {
     margin: 0;
@@ -31,6 +6,24 @@ body {
     background-color: #f9f9f9;
     color: #333;
 }
+
+/* Header Styling */
+header {
+    background: #282c34;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* Logo Styling */
+#site-logo {
+    width: 150px;        /* Adjust the width of the logo */
+    height: auto;        /* Maintain aspect ratio */
+    display: block;      /* Make logo block level */
+    margin: 0 auto;      /* Center the logo */
+    padding: 10px 0;     /* Optional padding */
+}
+
 
 /* Navigation Bar */
 nav {
@@ -47,6 +40,7 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
 
 /* Main Content */
 main {
