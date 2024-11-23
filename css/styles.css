@@ -9,11 +9,20 @@ body {
 
 /* Header Styling */
 
+/* Header Styling */
 header {
-    background: #282c34;
-    color: #fff;
-    padding: 20px 10px;
-    text-align: center;
+    display: flex;          /* Use flexbox for easy alignment */
+    align-items: center;    /* Vertically center the items */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 10px 20px;     /* Optional padding */
+    background-color: #f4f4f4; /* Optional background color */
+}
+
+/* Logo Styling */
+#site-logo {
+    width: 100px;           /* Adjust width of the logo */
+    height: auto;           /* Maintain aspect ratio */
+    margin-right: 20px;     /* Add space between logo and text */
 }
 
 /* Navigation Bar */
@@ -31,15 +40,6 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
-}
-/* Logo Styling */
-#site-logo {
-    width: 150px;        /* Adjust the width of the logo */
-    height: auto;        /* Maintain aspect ratio */
-    display: block;      /* Make logo block level */
-    margin: 0 auto;      /* left the logo */
-    padding: 10px 0;     /* Optional padding */
-}
 
 /* Main Content */
 main {
