@@ -9,19 +9,29 @@ body {
 
 /* Header Styling */
 header {
-    display: flex;          /* Use flexbox for easy alignment */
-    align-items: center;    /* Vertically center the items */
-    justify-content: flex-start; /* Align items to the center */
-    padding: 10px 20px;     /* Optional padding */
-    background-color: #cc7cf4; /* Optional background color */
+    display: flex;                /* Use flexbox for easy alignment */
+    align-items: center;          /* Vertically center the items */
+    justify-content: center;      /* Center all content horizontally */
+    padding: 10px 20px;           /* Optional padding */
+    background-color: #cc7cf4;    /* Custom background color */
+    position: relative;           /* To position the logo */
 }
 
 /* Logo Styling */
 #site-logo {
-    width: 100px;           /* Adjust width of the logo */
-    height: auto;           /* Maintain aspect ratio */
-    margin-right: 20px;     /* Add space between logo and text */
+    position: absolute;           /* Position logo independently */
+    left: 20px;                   /* Align logo to the left with some margin */
+    width: 100px;                 /* Adjust width of the logo */
+    height: auto;                 /* Maintain aspect ratio */
 }
+
+/* Heading Styling */
+h1 {
+    margin: 0;                    /* Remove default margin */
+    font-size: 24px;              /* Set font size for the heading */
+    color: white;                 /* Set text color for contrast */
+}
+
 
 /* Navigation Bar */
 nav {
