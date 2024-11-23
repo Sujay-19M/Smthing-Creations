@@ -8,12 +8,23 @@ body {
 }
 
 /* Header Styling */
+
 header {
     background: #282c34;
     color: #fff;
     padding: 20px 10px;
     text-align: center;
 }
+
+/* Logo Styling */
+#site-logo {
+    width: 150px;        /* Adjust the width of the logo */
+    height: auto;        /* Maintain aspect ratio */
+    display: block;      /* Make logo block level */
+    margin: 0 auto;      /* Center the logo */
+    padding: 10px 0;     /* Optional padding */
+}
+
 
 /* Navigation Bar */
 nav {
