@@ -1,0 +1,51 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #282c34;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #282c34;
+    color: #fff;
+}
+
