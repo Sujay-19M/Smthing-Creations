@@ -11,7 +11,7 @@ body {
 header {
     display: flex;          /* Use flexbox for easy alignment */
     align-items: center;    /* Vertically center the items */
-    justify-content: flex-start; /* Align items to the left */
+    justify-content: flex-start; /* Align items to the center */
     padding: 10px 20px;     /* Optional padding */
     background-color: #cc7cf4; /* Optional background color */
 }
