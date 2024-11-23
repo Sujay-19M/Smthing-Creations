@@ -8,8 +8,6 @@ body {
 }
 
 /* Header Styling */
-
-/* Header Styling */
 header {
     display: flex;          /* Use flexbox for easy alignment */
     align-items: center;    /* Vertically center the items */
