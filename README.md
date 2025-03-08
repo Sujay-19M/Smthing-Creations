@@ -8,7 +8,7 @@ This repository hosts the GitHub Pages representation of **smthing.in**, a platf
 ## 🌐 Live Website
 
 Check out the live website here:  
-[https://sujay-19m.github.io/smthing.github.io/](https://sujay-19m.github.io/smthing.github.io/)
+[https://sujay-19m.github.io/smthing-creations/](https://sujay-19m.github.io/smthing-creations/)
 
 Or visit our main website:  
 [https://smthing.in](https://smthing.in)
